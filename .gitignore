@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.eve/
+.output
+.nitro/
+.studio/
+*.log
+
+# Generated analysis and private local verification artifacts
+graphify-out/
+evidence/amo-os-*.json
+evidence/agent-build-info.json
+evidence/local-agent-build.txt
+evidence/model-catalog.json

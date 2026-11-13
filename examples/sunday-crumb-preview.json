@@ -1,0 +1,343 @@
+{
+  "id": "67dae36d-e6a3-4b95-85c4-98d6710738e2",
+  "createdAt": "2026-10-24T13:36:40.849Z",
+  "version": "0.1.0",
+  "mode": "preview",
+  "status": "example_only",
+  "brief": {
+    "business": "Sunday Crumb (fictional)",
+    "niche": "Neighborhood bakery",
+    "audience": "Local residents planning a relaxed weekend breakfast",
+    "objective": "Encourage people to visit the bakery this weekend",
+    "voice": "Warm, inviting, simple; no exaggerated claims",
+    "platforms": "Instagram feed and Stories",
+    "products": "Fictional example: sourdough loaves and cinnamon rolls. No pricing, opening hours, or photographs supplied.",
+    "constraints": "English. No discounts, health claims, invented testimonials, or unsupported ingredient claims. Ask for opening hours and approved product references."
+  },
+  "facts": [
+    {
+      "id": "business",
+      "text": "Sunday Crumb (fictional)",
+      "source": "User brief: business",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "niche",
+      "text": "Neighborhood bakery",
+      "source": "User brief: niche",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "audience",
+      "text": "Local residents planning a relaxed weekend breakfast",
+      "source": "User brief: audience",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "objective",
+      "text": "Encourage people to visit the bakery this weekend",
+      "source": "User brief: objective",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "voice",
+      "text": "Warm, inviting, simple; no exaggerated claims",
+      "source": "User brief: voice",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "platforms",
+      "text": "Instagram feed and Stories",
+      "source": "User brief: platforms",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "products",
+      "text": "Fictional example: sourdough loaves and cinnamon rolls. No pricing, opening hours, or photographs supplied.",
+      "source": "User brief: products",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "constraints",
+      "text": "English. No discounts, health claims, invented testimonials, or unsupported ingredient claims. Ask for opening hours and approved product references.",
+      "source": "User brief: constraints",
+      "verification": "user_provided_unverified"
+    }
+  ],
+  "outputs": {
+    "brief": {
+      "summary": "Template intake for Sunday Crumb (fictional): reach Local residents planning a relaxed weekend breakfast. Objective: Encourage people to visit the bakery this weekend.",
+      "factsUsed": [
+        "business",
+        "niche",
+        "audience",
+        "objective",
+        "voice",
+        "platforms",
+        "products",
+        "constraints"
+      ],
+      "assumptions": [
+        {
+          "statement": "A single coordinated campaign is suitable for this request.",
+          "basis": "Preview template default; requires human confirmation."
+        }
+      ],
+      "uncertainties": [
+        "Product appearance, offers, and supporting claims have not been independently verified."
+      ],
+      "disagreements": [],
+      "deliverables": [],
+      "review": {
+        "verdict": "not_applicable",
+        "findings": []
+      }
+    },
+    "strategy": {
+      "summary": "Proposed preview direction: one clear message around Encourage people to visit the bakery this weekend, tailored to Local residents planning a relaxed weekend breakfast, with a Warm, inviting, simple; no exaggerated claims voice. Human confirmation required.",
+      "factsUsed": [
+        "business",
+        "niche",
+        "audience",
+        "objective",
+        "voice",
+        "platforms",
+        "products",
+        "constraints"
+      ],
+      "assumptions": [
+        {
+          "statement": "A single coordinated campaign is suitable for this request.",
+          "basis": "Preview template default; requires human confirmation."
+        }
+      ],
+      "uncertainties": [
+        "Product appearance, offers, and supporting claims have not been independently verified."
+      ],
+      "disagreements": [],
+      "deliverables": [],
+      "review": {
+        "verdict": "not_applicable",
+        "findings": []
+      }
+    },
+    "copy": {
+      "summary": "Writing prompt template adapted to the supplied brief. No AI work performed.",
+      "factsUsed": [
+        "business",
+        "niche",
+        "audience",
+        "objective",
+        "voice",
+        "platforms",
+        "products",
+        "constraints"
+      ],
+      "assumptions": [
+        {
+          "statement": "A single coordinated campaign is suitable for this request.",
+          "basis": "Preview template default; requires human confirmation."
+        }
+      ],
+      "uncertainties": [
+        "Product appearance, offers, and supporting claims have not been independently verified."
+      ],
+      "disagreements": [],
+      "deliverables": [
+        {
+          "title": "Instagram feed and Stories \u00b7 caption prompt",
+          "prompt": "Act as a professional social copywriter for Sunday Crumb (fictional). Business niche: Neighborhood bakery. Audience: Local residents planning a relaxed weekend breakfast. Objective: Encourage people to visit the bakery this weekend. Platforms: Instagram feed and Stories. Brand voice: Warm, inviting, simple; no exaggerated claims. User-provided product details: Fictional example: sourdough loaves and cinnamon rolls. No pricing, opening hours, or photographs supplied.. Constraints: English. No discounts, health claims, invented testimonials, or unsupported ingredient claims. Ask for opening hours and approved product references.. Create three caption options per requested platform, each with a hook, body, and one relevant CTA. Keep the campaign message aligned with this objective. Return a table with platform, caption, CTA, and assumptions. Do not invent discounts, testimonials, certifications, pricing, or results. Mark missing details [CONFIRM: detail] and list questions before producing publishable content.",
+          "acceptanceCriteria": [
+            "Matches the stated audience, objective, and constraints.",
+            "Unknown details are visibly marked for confirmation.",
+            "Contains no unsupported commercial claims.",
+            "Human reviews platform formatting and brand suitability."
+          ]
+        }
+      ],
+      "review": {
+        "verdict": "not_applicable",
+        "findings": []
+      }
+    },
+    "visual": {
+      "summary": "Visual prompt template adapted to the supplied brief. No AI work performed.",
+      "factsUsed": [
+        "business",
+        "niche",
+        "audience",
+        "objective",
+        "voice",
+        "platforms",
+        "products",
+        "constraints"
+      ],
+      "assumptions": [
+        {
+          "statement": "A single coordinated campaign is suitable for this request.",
+          "basis": "Preview template default; requires human confirmation."
+        }
+      ],
+      "uncertainties": [
+        "Product appearance, offers, and supporting claims have not been independently verified."
+      ],
+      "disagreements": [],
+      "deliverables": [
+        {
+          "title": "Instagram feed and Stories \u00b7 image prompt",
+          "prompt": "Create a campaign image concept for Sunday Crumb (fictional), for Instagram feed and Stories, addressing Local residents planning a relaxed weekend breakfast. Campaign objective: Encourage people to visit the bakery this weekend. Brand voice to reflect visually: Warm, inviting, simple; no exaggerated claims. Product details: Fictional example: sourdough loaves and cinnamon rolls. No pricing, opening hours, or photographs supplied.. Use a clear focal subject, simple composition, natural directional light, and space for optional copy. These aesthetic choices are suggestions, not brand facts. [CONFIRM: approved colors, reference images, and platform format]. Constraints: English. No discounts, health claims, invented testimonials, or unsupported ingredient claims. Ask for opening hours and approved product references.. Do not invent packaging, product labels, awards, or endorsements. Avoid unrequested text, watermarks, distorted products, and misleading before/after claims. Return one image prompt per platform plus format assumptions and exclusions.",
+          "acceptanceCriteria": [
+            "Matches the stated audience, objective, and constraints.",
+            "Unknown details are visibly marked for confirmation.",
+            "Contains no unsupported commercial claims.",
+            "Human reviews platform formatting and brand suitability."
+          ]
+        }
+      ],
+      "review": {
+        "verdict": "not_applicable",
+        "findings": []
+      }
+    },
+    "review": {
+      "summary": "Illustrative review checklist only. No independent AI review occurred.",
+      "factsUsed": [
+        "business",
+        "niche",
+        "audience",
+        "objective",
+        "voice",
+        "platforms",
+        "products",
+        "constraints"
+      ],
+      "assumptions": [
+        {
+          "statement": "A single coordinated campaign is suitable for this request.",
+          "basis": "Preview template default; requires human confirmation."
+        }
+      ],
+      "uncertainties": [
+        "Product appearance, offers, and supporting claims have not been independently verified."
+      ],
+      "disagreements": [],
+      "deliverables": [],
+      "review": {
+        "verdict": "request_changes",
+        "findings": [
+          "Confirm the proposed campaign direction and missing brand details.",
+          "Review the writing and visual prompts together before use.",
+          "Run live mode for actual model specialist calls; live outputs still require human review."
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "at": "2026-10-24T13:36:40.852Z",
+      "role": "brief",
+      "status": "running",
+      "detail": "Rendering a template example; no model call."
+    },
+    {
+      "sequence": 2,
+      "at": "2026-10-24T13:36:40.853Z",
+      "role": "brief",
+      "status": "completed",
+      "detail": "Template example recorded."
+    },
+    {
+      "sequence": 3,
+      "at": "2026-10-24T13:36:40.853Z",
+      "role": "strategy",
+      "status": "running",
+      "detail": "Rendering a template example; no model call."
+    },
+    {
+      "sequence": 4,
+      "at": "2026-10-24T13:36:40.854Z",
+      "role": "strategy",
+      "status": "completed",
+      "detail": "Template example recorded."
+    },
+    {
+      "sequence": 5,
+      "at": "2026-10-24T13:36:40.854Z",
+      "role": "copy",
+      "status": "running",
+      "detail": "Rendering a template example; no model call."
+    },
+    {
+      "sequence": 6,
+      "at": "2026-10-24T13:36:40.854Z",
+      "role": "visual",
+      "status": "running",
+      "detail": "Rendering a template example; no model call."
+    },
+    {
+      "sequence": 7,
+      "at": "2026-10-24T13:36:40.855Z",
+      "role": "copy",
+      "status": "completed",
+      "detail": "Template example recorded."
+    },
+    {
+      "sequence": 8,
+      "at": "2026-10-24T13:36:40.855Z",
+      "role": "visual",
+      "status": "completed",
+      "detail": "Template example recorded."
+    },
+    {
+      "sequence": 9,
+      "at": "2026-10-24T13:36:40.856Z",
+      "role": "review",
+      "status": "running",
+      "detail": "Rendering a template example; no model call."
+    },
+    {
+      "sequence": 10,
+      "at": "2026-10-24T13:36:40.856Z",
+      "role": "review",
+      "status": "completed",
+      "detail": "Template example recorded."
+    },
+    {
+      "sequence": 11,
+      "at": "2026-10-24T13:36:40.857Z",
+      "role": "studio",
+      "status": "example_only",
+      "detail": "No automatic approval or publication."
+    }
+  ],
+  "checks": [
+    {
+      "name": "Required specialist outputs present",
+      "passed": true
+    },
+    {
+      "name": "Business fact references recognized",
+      "passed": true
+    },
+    {
+      "name": "Prompt instructions and acceptance criteria present",
+      "passed": true
+    },
+    {
+      "name": "No unresolved specialist disagreements",
+      "passed": true
+    },
+    {
+      "name": "Reviewer returned pass",
+      "passed": false
+    }
+  ],
+  "limitations": [
+    "No web research or external verification.",
+    "AI honesty cannot be guaranteed.",
+    "No final captions or images are generated.",
+    "Template preview: no AI specialists were invoked; review is illustrative only."
+  ],
+  "finishedAt": "2026-10-24T13:36:40.857Z"
+}

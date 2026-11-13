@@ -1,0 +1,482 @@
+{
+  "id": "e6bc5807-bd0c-473d-93f1-1e7f2621c9b3",
+  "createdAt": "2026-10-24T13:52:05.785Z",
+  "version": "0.1.0",
+  "mode": "live",
+  "status": "changes_requested",
+  "brief": {
+    "business": "Sunday Crumb (fictional)",
+    "niche": "Neighborhood bakery",
+    "audience": "Local residents planning a relaxed weekend breakfast",
+    "objective": "Encourage people to visit the bakery this weekend",
+    "voice": "Warm, inviting, simple; no exaggerated claims",
+    "platforms": "Instagram feed and Stories",
+    "products": "Fictional example: sourdough loaves and cinnamon rolls. No pricing, opening hours, or photographs supplied.",
+    "constraints": "English. No discounts, health claims, invented testimonials, or unsupported ingredient claims. Ask for opening hours and approved product references."
+  },
+  "facts": [
+    {
+      "id": "business",
+      "text": "Sunday Crumb (fictional)",
+      "source": "User brief: business",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "niche",
+      "text": "Neighborhood bakery",
+      "source": "User brief: niche",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "audience",
+      "text": "Local residents planning a relaxed weekend breakfast",
+      "source": "User brief: audience",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "objective",
+      "text": "Encourage people to visit the bakery this weekend",
+      "source": "User brief: objective",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "voice",
+      "text": "Warm, inviting, simple; no exaggerated claims",
+      "source": "User brief: voice",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "platforms",
+      "text": "Instagram feed and Stories",
+      "source": "User brief: platforms",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "products",
+      "text": "Fictional example: sourdough loaves and cinnamon rolls. No pricing, opening hours, or photographs supplied.",
+      "source": "User brief: products",
+      "verification": "user_provided_unverified"
+    },
+    {
+      "id": "constraints",
+      "text": "English. No discounts, health claims, invented testimonials, or unsupported ingredient claims. Ask for opening hours and approved product references.",
+      "source": "User brief: constraints",
+      "verification": "user_provided_unverified"
+    }
+  ],
+  "outputs": {
+    "brief": {
+      "summary": "Extract goal, audience, constraints, known facts, missing details, and assumptions for Sunday Crumb bakery's Instagram campaign. Goal: Encourage weekend visits. Audience: Local residents seeking relaxed breakfast. Constraints: English language, no discounts/health claims. Known facts: Fictional products (sourdough, cinnamon rolls), no pricing/opening hours. Missing: Opening hours, product references. Assumptions: Local residents use Instagram, products are available this weekend. Uncertainties: Product availability, audience engagement patterns.",
+      "factsUsed": [
+        "business",
+        "niche",
+        "audience",
+        "objective",
+        "voice",
+        "platforms",
+        "products",
+        "constraints"
+      ],
+      "assumptions": [
+        {
+          "statement": "Local residents actively use Instagram for weekend breakfast planning",
+          "basis": "Audience description implies Instagram engagement"
+        },
+        {
+          "statement": "Sourdough and cinnamon rolls are available this weekend",
+          "basis": "Objective requires weekend visits with fictional products"
+        }
+      ],
+      "uncertainties": [
+        "Opening hours for Sunday Crumb",
+        "Approved product references for Instagram",
+        "Audience's actual Instagram usage patterns",
+        "Product availability on weekends"
+      ],
+      "disagreements": [],
+      "deliverables": [],
+      "review": {
+        "verdict": "not_applicable",
+        "findings": []
+      },
+      "roleId": "brief",
+      "execution": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "location": "This Mac \u00b7 loopback only",
+        "usage": {
+          "inputTokens": 1310,
+          "outputTokens": 314
+        },
+        "durationMs": 9151,
+        "apiCostUsd": 0,
+        "cost": "No model API fees. Uses local hardware and electricity."
+      }
+    },
+    "strategy": {
+      "summary": "Campaign angle: 'Weekend Sip & Sourdough' for local residents seeking relaxed breakfasts. Focus on sensory appeal of sourdough and cinnamon rolls without pricing or health claims. Tone: Warm, simple, inviting. CTA: 'Visit Sunday Crumb this weekend' with clear opening hours request. Conflicts: No opening hours or product references provided. Missing: Opening hours, approved product images. Assumptions: Local residents use Instagram for weekend planning; products available this weekend. Uncertainties: Product availability, audience engagement patterns.",
+      "factsUsed": [
+        "business",
+        "niche",
+        "audience",
+        "objective",
+        "voice",
+        "platforms",
+        "products",
+        "constraints"
+      ],
+      "assumptions": [
+        {
+          "statement": "Local residents actively use Instagram for weekend breakfast planning",
+          "basis": "Audience description implies Instagram engagement"
+        },
+        {
+          "statement": "Sourdough and cinnamon rolls are available this weekend",
+          "basis": "Objective requires weekend visits with fictional products"
+        }
+      ],
+      "uncertainties": [
+        "Opening hours for Sunday Crumb",
+        "Approved product references for Instagram",
+        "Audience's actual Instagram usage patterns",
+        "Product availability on weekends"
+      ],
+      "disagreements": [],
+      "deliverables": [],
+      "review": {
+        "verdict": "not_applicable",
+        "findings": []
+      },
+      "roleId": "strategy",
+      "execution": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "location": "This Mac \u00b7 loopback only",
+        "usage": {
+          "inputTokens": 1618,
+          "outputTokens": 321
+        },
+        "durationMs": 9971,
+        "apiCostUsd": 0,
+        "cost": "No model API fees. Uses local hardware and electricity."
+      }
+    },
+    "visual": {
+      "summary": "Visual prompt for Sunday Crumb bakery's Instagram feed and Stories. Focus on sensory appeal of sourdough and cinnamon rolls without pricing or health claims. Warm, inviting tone. Requires opening hours and product references for final execution. Unprovided details: opening hours, approved product images.",
+      "factsUsed": [
+        "business",
+        "niche",
+        "audience",
+        "objective",
+        "voice",
+        "platforms",
+        "products",
+        "constraints"
+      ],
+      "assumptions": [
+        {
+          "statement": "Local residents actively use Instagram for weekend breakfast planning",
+          "basis": "Audience description implies Instagram engagement"
+        },
+        {
+          "statement": "Sourdough and cinnamon rolls are available this weekend",
+          "basis": "Objective requires weekend visits with fictional products"
+        }
+      ],
+      "uncertainties": [
+        "Opening hours for Sunday Crumb",
+        "Approved product references for Instagram",
+        "Audience's actual Instagram usage patterns",
+        "Product availability on weekends"
+      ],
+      "disagreements": [],
+      "deliverables": [
+        {
+          "title": "Instagram Feed Prompt",
+          "prompt": "Create a warm, inviting composition for Instagram feed showing a rustic wooden table with two handcrafted sourdough loaves and cinnamon rolls. Natural light from a window illuminates the scene, highlighting the textures and colors. Soft, earthy palette with muted greens, warm beiges, and subtle browns. Composition emphasizes close-up details of the breads to evoke sensory appeal without health claims or pricing. No text overlays. Brand constraints: English language, no discounts, health claims, or invented testimonials. Exclusions: No opening hours, no product references, no pricing information. Format: 1080x1080 pixels, 1:1 aspect ratio. Target: Local residents planning a relaxed weekend breakfast. Must be photorealistic but stylized for Instagram.",
+          "acceptanceCriteria": [
+            "Composition focuses on sensory details of sourdough and cinnamon rolls",
+            "Natural lighting enhances texture without harsh shadows",
+            "Palette stays within earthy, muted tones (no bright colors)",
+            "No text, pricing, or health claims visible",
+            "Clear brand alignment with warm, inviting bakery aesthetic",
+            "Format matches Instagram feed requirements (1080x1080 pixels)"
+          ]
+        },
+        {
+          "title": "Instagram Stories Prompt",
+          "prompt": "Design a dynamic, engaging Instagram Stories scene for Sunday Crumb bakery. Show a close-up of a cinnamon roll being sliced with a wooden knife, steam rising from the cut. Soft, diffused lighting creates a cozy atmosphere. Palette: Warm beiges and muted reds for a comforting feel. Composition: Low angle to emphasize the slice, with subtle background elements like a rustic kitchen counter. Brand constraints: English language, no discounts, health claims, or invented testimonials. Exclusions: No opening hours, no product references, no pricing information. Format: 1080x1920 pixels, vertical aspect ratio. Target: Local residents seeking relaxed weekend breakfasts. Must be photorealistic but stylized for Stories with subtle motion blur to imply activity.",
+          "acceptanceCriteria": [
+            "Dynamic composition with steam rising from sliced cinnamon roll",
+            "Soft lighting avoids harsh shadows for a natural feel",
+            "Palette uses warm beiges and muted reds without bright accents",
+            "No text, pricing, or health claims visible",
+            "Clear brand alignment with neighborhood bakery aesthetic",
+            "Format matches Instagram Stories requirements (1080x1920 pixels)"
+          ]
+        }
+      ],
+      "review": {
+        "verdict": "not_applicable",
+        "findings": []
+      },
+      "roleId": "visual",
+      "execution": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "location": "This Mac \u00b7 loopback only",
+        "usage": {
+          "inputTokens": 1984,
+          "outputTokens": 797
+        },
+        "durationMs": 22819,
+        "apiCostUsd": 0,
+        "cost": "No model API fees. Uses local hardware and electricity."
+      }
+    },
+    "copy": {
+      "summary": "Create reusable Instagram caption prompts for feed and Stories targeting local residents seeking relaxed weekend breakfasts. Focus on sensory appeal of sourdough and cinnamon rolls without health claims or pricing. Must request opening hours and approved product references. Use warm, simple language. Avoid unsupported claims. Include 2-3 variants per platform with clear CTAs.",
+      "factsUsed": [
+        "business",
+        "niche",
+        "audience",
+        "objective",
+        "voice",
+        "platforms",
+        "products",
+        "constraints"
+      ],
+      "assumptions": [
+        {
+          "statement": "Local residents actively use Instagram for weekend breakfast planning",
+          "basis": "Audience description implies Instagram engagement"
+        },
+        {
+          "statement": "Sourdough and cinnamon rolls are available this weekend",
+          "basis": "Objective requires weekend visits with fictional products"
+        }
+      ],
+      "uncertainties": [
+        "Opening hours for Sunday Crumb",
+        "Approved product references for Instagram",
+        "Audience's actual Instagram usage patterns",
+        "Product availability on weekends"
+      ],
+      "disagreements": [],
+      "deliverables": [
+        {
+          "title": "Instagram Feed Caption Prompt",
+          "prompt": "Write a warm, simple Instagram feed caption (1-2 sentences) for Sunday Crumb bakery targeting local residents planning a relaxed weekend breakfast. Describe sensory appeal of sourdough loaves and cinnamon rolls without health claims or pricing. Must include: 1) Clear CTA to visit this weekend, 2) Explicit request for opening hours, 3) Reference to approved product images (sourdough/cinnamon rolls). Avoid: discounts, exaggerated claims, invented testimonials. Format: 1st person, conversational tone. Output 2 variants with different emphasis (e.g., one sensory, one convenience-focused).",
+          "acceptanceCriteria": [
+            "Uses only approved products (sourdough/cinnamon rolls)",
+            "No health claims or pricing mentioned",
+            "Includes explicit opening hours request",
+            "Clear CTA to visit this weekend",
+            "2 distinct variants with varied focus",
+            "Maintains warm, simple tone without exaggeration",
+            "No invented testimonials or discounts"
+          ]
+        },
+        {
+          "title": "Instagram Story Caption Prompt",
+          "prompt": "Write a concise, engaging Instagram Story caption (2-4 lines) for Sunday Crumb bakery. Target local residents seeking relaxed weekend breakfasts. Highlight sensory appeal of sourdough and cinnamon rolls without health claims. Must include: 1) Clear CTA to visit this weekend, 2) Request for opening hours, 3) Reference to approved product images. Format: Short, emoji-friendly, 1st person. Output 1 variant with a question hook to encourage engagement. Avoid: discounts, exaggerated claims, invented testimonials.",
+          "acceptanceCriteria": [
+            "Uses only approved products (sourdough/cinnamon rolls)",
+            "No health claims or pricing mentioned",
+            "Includes explicit opening hours request",
+            "Clear CTA to visit this weekend",
+            "Uses question hook for engagement",
+            "Maintains warm, simple tone without exaggeration",
+            "No invented testimonials or discounts"
+          ]
+        }
+      ],
+      "review": {
+        "verdict": "not_applicable",
+        "findings": []
+      },
+      "roleId": "copy",
+      "execution": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "location": "This Mac \u00b7 loopback only",
+        "usage": {
+          "inputTokens": 1972,
+          "outputTokens": 707
+        },
+        "durationMs": 45375,
+        "apiCostUsd": 0,
+        "cost": "No model API fees. Uses local hardware and electricity."
+      }
+    },
+    "review": {
+      "summary": "Review of Sunday Crumb bakery's Instagram campaign prompts against brief and strategy. Copy and visual prompts align with constraints but miss critical missing details: opening hours and approved product references. Both require these inputs for execution. Assumptions about product availability and audience engagement are unverified. No invented claims found. Visual prompts specify no text, but copy prompts explicitly request opening hours and product references. Deliverables are incomplete without these inputs. Findings: Missing opening hours and product references prevent final execution.",
+      "factsUsed": [
+        "business",
+        "niche",
+        "audience",
+        "objective",
+        "voice",
+        "platforms",
+        "products",
+        "constraints"
+      ],
+      "assumptions": [
+        {
+          "statement": "Local residents actively use Instagram for weekend breakfast planning",
+          "basis": "Audience description implies Instagram engagement"
+        },
+        {
+          "statement": "Sourdough and cinnamon rolls are available this weekend",
+          "basis": "Objective requires weekend visits with fictional products"
+        }
+      ],
+      "uncertainties": [
+        "Opening hours for Sunday Crumb",
+        "Approved product references for Instagram",
+        "Audience's actual Instagram usage patterns",
+        "Product availability on weekends"
+      ],
+      "disagreements": [],
+      "deliverables": [],
+      "review": {
+        "verdict": "request_changes",
+        "findings": [
+          "Visual and copy prompts require opening hours and approved product references for final execution",
+          "Assumptions about product availability and audience engagement lack verification",
+          "Copy prompts explicitly request opening hours and product references but visual prompts exclude them",
+          "No invented claims or unsupported claims found in prompts",
+          "Both platforms need explicit confirmation of opening hours before deployment"
+        ]
+      },
+      "roleId": "review",
+      "execution": {
+        "provider": "ollama",
+        "model": "qwen3:4b",
+        "location": "This Mac \u00b7 loopback only",
+        "usage": {
+          "inputTokens": 3439,
+          "outputTokens": 382
+        },
+        "durationMs": 18759,
+        "apiCostUsd": 0,
+        "cost": "No model API fees. Uses local hardware and electricity."
+      }
+    }
+  },
+  "events": [
+    {
+      "sequence": 1,
+      "at": "2026-10-24T13:52:05.794Z",
+      "role": "brief",
+      "status": "running",
+      "detail": "Calling configured model."
+    },
+    {
+      "sequence": 2,
+      "at": "2026-10-24T13:52:14.948Z",
+      "role": "brief",
+      "status": "completed",
+      "detail": "Structured output recorded; factual accuracy is not guaranteed."
+    },
+    {
+      "sequence": 3,
+      "at": "2026-10-24T13:52:14.949Z",
+      "role": "strategy",
+      "status": "running",
+      "detail": "Calling configured model."
+    },
+    {
+      "sequence": 4,
+      "at": "2026-10-24T13:52:24.922Z",
+      "role": "strategy",
+      "status": "completed",
+      "detail": "Structured output recorded; factual accuracy is not guaranteed."
+    },
+    {
+      "sequence": 5,
+      "at": "2026-10-24T13:52:24.923Z",
+      "role": "copy",
+      "status": "running",
+      "detail": "Calling configured model."
+    },
+    {
+      "sequence": 6,
+      "at": "2026-10-24T13:52:24.923Z",
+      "role": "visual",
+      "status": "running",
+      "detail": "Calling configured model."
+    },
+    {
+      "sequence": 7,
+      "at": "2026-10-24T13:52:47.749Z",
+      "role": "visual",
+      "status": "completed",
+      "detail": "Structured output recorded; factual accuracy is not guaranteed."
+    },
+    {
+      "sequence": 8,
+      "at": "2026-10-24T13:53:10.301Z",
+      "role": "copy",
+      "status": "completed",
+      "detail": "Structured output recorded; factual accuracy is not guaranteed."
+    },
+    {
+      "sequence": 9,
+      "at": "2026-10-24T13:53:10.302Z",
+      "role": "review",
+      "status": "running",
+      "detail": "Calling configured model."
+    },
+    {
+      "sequence": 10,
+      "at": "2026-10-24T13:53:29.064Z",
+      "role": "review",
+      "status": "completed",
+      "detail": "Structured output recorded; factual accuracy is not guaranteed."
+    },
+    {
+      "sequence": 11,
+      "at": "2026-10-24T13:53:29.066Z",
+      "role": "studio",
+      "status": "changes_requested",
+      "detail": "No automatic approval or publication."
+    }
+  ],
+  "checks": [
+    {
+      "name": "Required specialist outputs present",
+      "passed": true
+    },
+    {
+      "name": "Business fact references recognized",
+      "passed": true
+    },
+    {
+      "name": "Prompt instructions and acceptance criteria present",
+      "passed": true
+    },
+    {
+      "name": "No unresolved specialist disagreements",
+      "passed": true
+    },
+    {
+      "name": "Reviewer returned pass",
+      "passed": false
+    }
+  ],
+  "limitations": [
+    "No web research or external verification.",
+    "AI honesty cannot be guaranteed.",
+    "No final captions or images are generated.",
+    "Specialists use separate calls to the same model; this is not independent human review.",
+    "Model inference runs on this Mac; no external model API calls or automatic paid fallback."
+  ],
+  "connection": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "ready": true,
+    "message": "Local model ready \u00b7 No API fees"
+  },
+  "finishedAt": "2026-10-24T13:53:29.066Z"
+}

@@ -1,0 +1,30 @@
+$ node --test tests/*.test.mjs
+▶ local API validates briefs, persists preview output, and protects its boundary
+  ✔ browser entry and config are available without credentials (21.511ms)
+  ✔ missing required details are rejected (2.973125ms)
+  ✔ live calls are refused when model connection is absent (2.39675ms)
+  ✔ cross-origin writes are rejected (1.977667ms)
+  ✔ preview returns saved artifacts and exact event sequence (29.943ms)
+✔ local API validates briefs, persists preview output, and protects its boundary (161.777459ms)
+✔ missing critical brief information and invalid types are rejected (0.598167ms)
+✔ offline preview never calls a model or receives an approval status (2.057167ms)
+✔ dependent handoffs are sequential; copy and visual genuinely overlap (22.538208ms)
+✔ invented fact references stop a run without advancing to review (0.216333ms)
+✔ dissent cannot be overridden by a passing reviewer (0.185416ms)
+✔ reviewer can block a package or request changes (0.177458ms)
+✔ partial work survives failure and provider secrets never appear in error evidence (0.1525ms)
+✔ cancelled work cannot become completed or approved (0.094875ms)
+✔ missing actual prompt deliverables fail the run (0.12425ms)
+✔ local inference is the default even when a paid key exists (0.485667ms)
+✔ cloud aliases and remote model records cannot enable free local mode (0.213791ms)
+✔ local generation sends schema and brief only to loopback and reports zero API cost (2.666042ms)
+✔ unavailable local inference never falls back to paid calls (0.202791ms)
+✔ saved runs use snapshots and interrupted runs never silently resume (47.060875ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 204.16425

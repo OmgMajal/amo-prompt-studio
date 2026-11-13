@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Amo · Prompt Studio</title><link rel="stylesheet" href="/style.css"><script type="module" src="/app.js"></script></head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="Amo Studio home"><span class="mark">a</span><span>amo<span class="brand-light"> / studio</span></span></a>
+    <div class="workspace-label">YOUR WORKSPACE <span>v0.2</span></div>
+    <button class="nav selected" id="new-brief">◈ <span>Prompt workspace</span></button>
+    <button class="nav" id="open-rules">◎ <span>Collaboration rules</span></button>
+    <div class="history-heading">RECENT RUNS <button id="refresh-history" aria-label="Refresh history">↻</button></div>
+    <div id="history" class="history"><p>No runs yet. Start with a brief.</p></div>
+    <div class="sidebar-footer"><span class="owner-avatar">A</span><div>Amo’s workspace<small>Local studio · Human led</small></div><span class="online-dot"></span></div>
+  </aside>
+  <main>
+    <header><div><span class="crumb">Workspace</span><span class="slash">/</span>Prompt production</div><span class="local-badge"><i></i> Local prototype</span></header>
+    <section class="intro"><div class="eyebrow">IDEAS IN. CLEAR INSTRUCTIONS OUT.</div><h1>Your brief. A whole studio.</h1><p>Specialists working together to turn business needs into thoughtful,<br class="desktop"> ready-to-review prompts for words and visuals.</p></section>
+    <div class="team-strip" id="team"></div>
+    <div class="workspace-grid">
+      <section class="brief-panel panel">
+        <div class="section-title"><div><span class="step">01</span><h2>The business brief</h2></div><button class="text-button" id="example">Try an example ↗</button></div>
+        <p class="helper">Give the team a shared starting point. Required fields are marked *.</p>
+        <form id="brief-form">
+          <div class="field-pair"><label>Business name *<input name="business" maxlength="4000" required placeholder="e.g. Sunday Crumb"></label><label>Niche<input name="niche" maxlength="4000" placeholder="e.g. Neighborhood bakery"></label></div>
+          <label>Who are we speaking to? *<input name="audience" maxlength="4000" required placeholder="Describe your audience"></label>
+          <label>What should this campaign achieve? *<textarea name="objective" maxlength="4000" required rows="2" placeholder="One clear business objective"></textarea></label>
+          <div class="field-pair"><label>Platforms *<input name="platforms" maxlength="4000" required placeholder="Instagram, LinkedIn…"></label><label>Brand voice<input name="voice" maxlength="4000" placeholder="Warm, playful, understated…"></label></div>
+          <fieldset class="target-picker"><legend>Choose target formats <span>optional</span></legend><div id="target-picker" class="target-picker-grid"><p class="helper">Loading the local platform registry…</p></div><p class="helper">Selecting formats fills the platform field. You can also type a custom platform.</p></fieldset>
+          <label>Products & known facts<textarea name="products" maxlength="4000" rows="2" placeholder="Only details the team may treat as supplied facts"></textarea></label>
+          <label>Boundaries & requirements<textarea name="constraints" maxlength="4000" rows="2" placeholder="Must-haves, things to avoid, language, formats…"></textarea></label>
+          <div class="field-pair"><label>Approval owner<input name="approvalOwner" maxlength="4000" placeholder="Who makes the final decision?" ></label><label>Success check<input name="successCriteria" maxlength="4000" placeholder="What must the prompt package achieve?" ></label></div>
+          <label>Risk and approval notes<textarea name="riskNotes" maxlength="4000" rows="2" placeholder="Claims, rights, safety, or sensitive details requiring extra care"></textarea></label>
+          <label>Validation plan<textarea name="validationPlan" maxlength="4000" rows="2" placeholder="How a human will check the package before use"></textarea></label>
+          <label class="research-toggle" style="display:flex;align-items:flex-start;gap:8px"><input style="width:auto;margin-top:8px" type="checkbox" name="webResearch" id="web-research"><span>Use optional web research<small>Search candidates are saved with URLs, marked unverified, and never treated as business facts.</small></span></label>
+          <div class="mode-picker"><label><input type="radio" name="mode" value="preview" checked><span>Template preview<small>Offline · No model calls</small></span></label><label><input type="radio" name="mode" value="live" id="live-mode"><span>Live specialists<small id="live-description">Checking connection…</small></span></label></div>
+          <p class="privacy-note" id="mode-note">Preview adapts fixed templates to your brief. It does not simulate a real AI review.</p>
+          <button class="primary" id="start" type="submit">Create prompt package <span>↗</span></button>
+        </form>
+        <p class="form-error" id="error" role="alert"></p>
+      </section>
+      <section class="results-panel panel">
+        <div class="section-title"><div><span class="step">02</span><h2>The studio desk</h2></div><span class="status-chip" id="run-status">Awaiting brief</span></div>
+        <div class="tabbar" role="tablist" aria-label="Studio output"><button role="tab" aria-selected="true" data-tab="package">Prompt package</button><button role="tab" aria-selected="false" data-tab="collaboration">Collaboration</button><button role="tab" aria-selected="false" data-tab="evidence">Checks & evidence</button></div>
+        <div id="run-summary"></div>
+        <div id="result-content" aria-live="polite"><div class="empty-state"><div class="empty-art"><span>✳</span><div class="paper p1"></div><div class="paper p2"></div></div><h3>Good prompts start with a shared brief.</h3><p>Your writing, visual, and format prompts will appear here,<br>alongside the decisions that shaped them.</p><div class="empty-tags"><span>Shared context</span><span>Visible uncertainty</span><span>Human review</span></div></div></div>
+        <div id="run-actions" class="run-actions" hidden><button class="secondary" id="export">Export JSON ↓</button><button class="secondary" id="export-compound">Export compound ↓</button><button class="text-button" id="cancel" hidden>Stop run</button></div>
+      </section>
+    </div>
+    <footer><span><span class="small-star">✳</span> Honesty is part of the workflow.</span><span>Assumptions stay visible. Approval stays with you.</span></footer>
+  </main>
+  <dialog id="rules-dialog"><div class="dialog-title"><h2>Honest collaboration</h2><button id="close-rules" aria-label="Close rules">×</button></div><p>These rules guide every live specialist call. Structural checks support them; they cannot guarantee AI truthfulness.</p><pre id="rules-text"></pre><p class="helper">No automatic publishing, external research, or business account access. Local mode keeps model inference on this Mac. Paid gateway mode requires explicit configuration.</p></dialog>
+</body></html>
